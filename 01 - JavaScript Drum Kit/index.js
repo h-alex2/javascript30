@@ -13,6 +13,9 @@ function playSound(e) {
 
   key.classList.add("playing");
 
+  setTimeout(() => {
+    key.classList.remove("playing");
+  }, 100);
 }
 
 window.addEventListener("keydown", playSound);
