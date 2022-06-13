@@ -5,15 +5,17 @@
 
 `window.addEventListener("keydown", playSound);
 `
+---
 
 ### transitionend 이벤트
 - CSS 전환이 완료되면 시작하는 이벤트
 - 트랜지션된 css의 개수만큼 이벤트가 일어나는 것 같다.
 - 밑 버그 문제 때문에 사용하지는 않았다.
+---
 
-
-### <kdb>
+### `<kdb>`
 The Keyboard Input element
+---
 
 
 ### dataset
@@ -28,6 +30,7 @@ const audio = document.querySelector(`audio[data-key=${keyName}]`)
 ```
 
 > 출처 : 모던자바스크립트 Deep Dive by 이웅모
+---
 
 
 ### 버그 해결
